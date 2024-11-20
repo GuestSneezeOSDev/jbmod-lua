@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------------
 
 $Macro SRCDIR		"..\.."
-$Macro OUTBINDIR	"$SRCDIR\..\game\bin"
+$Macro OUTBINDIR	"..\..\..\game\bin"
 
 $Include "$SRCDIR\vpc_scripts\source_dll_base.vpc"
 
@@ -37,6 +37,6 @@ $Project "luaplugin"
 	{
 		$Lib mathlib
 		$Lib tier2
-		$Lib liblua
+		$Lib lua54 // SIMPLE FUCKING FIX
 	}
 }
