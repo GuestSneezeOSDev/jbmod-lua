@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------------
 
 $Macro SRCDIR		"..\.."
-$Macro OUTBINDIR	"..\..\..\game\bin"
+$Macro OUTBINDIR	"..\..\..\game\luaplugin\bin"
 
 $Include "$SRCDIR\vpc_scripts\source_dll_base.vpc"
 
